@@ -4,7 +4,7 @@ import { FrasesModule } from './frases/frase.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://localhost:27017/challenger'), // 👈 tu base
+    MongooseModule.forRoot('mongodb+srv://leandro-cluster0:Lkd36108227@cluster0.fpxng0x.mongodb.net/challenger?retryWrites=true&w=majority&appName=Cluster0'), // 👈 tu base
     FrasesModule,
   ],
 })
